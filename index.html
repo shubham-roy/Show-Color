@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DisplayRGB</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="mainHeading">Show Color</h1>
+    </header>
+
+    <button class="btn second" id="button">Change Color</button>
+    <div class="displayPanel" id="screen"></div>
+
+    <div class="wrapper">
+        <div class="sliderContainer">
+            <input type="range" min="0" max="255" value="50" class="slider" id="rRange">
+            <p>Red: <span id="rVal">50</span></p>
+        </div>
+    
+        <div class="sliderContainer">
+            <input type="range" min="0" max="255" value="50" class="slider" id="gRange">
+            <p>Green: <span id="gVal">50</span></p>
+        </div>
+    
+        <div class="sliderContainer">
+            <input type="range" min="0" max="255" value="50" class="slider" id="bRange">
+            <p>Blue: <span id="bVal">50</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</htmlg
